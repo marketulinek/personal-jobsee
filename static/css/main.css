@@ -1,0 +1,68 @@
+h1 { font-family: "Courier New"; text-align: center; margin: 50px; }
+h2 { font-family: "Courier New"; margin-top: 20px; }
+
+body{
+    background-color: rgb(40, 42, 65);
+}
+.navbar {
+    background-color: rgb(51, 46, 86);
+    background-image: linear-gradient(to bottom right, rgb(51, 46, 86), rgb(50, 49, 81));
+    border-bottom: 3px solid rgb(123, 146, 252);
+}
+
+.navbar-brand {
+    font-family: "Courier New";
+    font-size: 30px;
+    padding: 0 15px 0 12px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+.navbar-brand:hover {
+    color: black;
+    background-color: white;
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+}
+.nav-item { border-bottom: 1px solid transparent; }
+.nav-link, .nav-link:hover { color: white; }
+.nav-item:hover:not(.disabled) { border-bottom: 1px solid white; }
+
+.btn-company { border-color: #8D007E; font-weight: bold; }
+.btn-company:hover {
+  background-color: #8D007E;
+  background-image: linear-gradient(to bottom right, #e6007e, #8D007E, #00007E);
+  color: white;
+}
+.btn-company-fill {
+    background-image: linear-gradient(to bottom right, #e6007e, #8D007E, #00007E);
+    background-color: #8D007E;
+    border-color: #8D007E;
+    font-weight: bold;
+    color: white;
+}
+.btn-company-fill:hover { background-image: none; background-color: white; }
+.btn-crispy:hover.btn-company-fill:hover { color: black; }
+
+#btnLoggedUser { border: none; }
+#btnLoggedUser:hover { background-color: inherit; color: white; }
+
+.table-hover tbody tr:hover { background-color: rgba(141, 0, 126, 0.1); }
+
+.modal-header h5 { font-family: "Courier New"; }
+
+td.col-see-more { background-color: #F5E8E7; }
+
+.card-sign-in { border-color: #00007E; }
+
+.django-table th a {
+    text-decoration: none;
+    color: black;
+}
+
+.welcoming-note {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.welcoming-note .card-header { background-color: rgba(141, 0, 126, 0.1); }
